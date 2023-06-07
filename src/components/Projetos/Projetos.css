@@ -1,5 +1,5 @@
 .Projeto-container{
-  width: 1440px;
+  /*width: 1440px;*/
   height: 1540px;
   padding: 100px;
   background: linear-gradient(
@@ -19,7 +19,7 @@
   color: #F2F2F2;
 }
 
-.Projeto-paragrafo{
+.Projeto-paragraph{
   margin-top: 40px;
   margin-bottom: 91px;
   font-family: var(--secondFont);
@@ -60,7 +60,7 @@
 }
 
 
-.Projeto-card-title { 
+.Projeto-card_title { 
   margin-left: 18px; 
   font-family: var(--secondFont);
   font-style: normal;
@@ -70,7 +70,7 @@
   color: #01030F;;
   }
 
-.Projeto-card-paragrafo {
+.Projeto-card_paragraph {
   margin-left: 18px;  
   font-family: var(--secondFont);
   font-style: normal;
