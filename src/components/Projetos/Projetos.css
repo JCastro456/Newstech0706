@@ -1,0 +1,81 @@
+.Projeto-container{
+  width: 1440px;
+  height: 1540px;
+  padding: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 17, 83, 1) 0%,
+    rgba(1, 12, 51, 1) 100%
+  ); 
+}
+
+.Projeto-title{  
+  margin-bottom:40px;
+  font-family: var(--secondFont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;  
+  color: #F2F2F2;
+}
+
+.Projeto-paragrafo{
+  margin-top: 40px;
+  margin-bottom: 91px;
+  font-family: var(--secondFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;  
+  color: #F2F2F2;
+}
+
+.Projeto-row {
+ display: flex;
+ flex-wrap: wrap;
+ margin: -10px;
+}
+
+.Projeto-col {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Projeto-card{
+  width: 386px;
+  height: 550px;
+   
+  background: #F2F2F2;
+  border: 1px solid #000000;
+  border-radius: 16px;
+}
+
+.Projeto-card_imagem {
+  width: 386px;
+  height: 430px;  
+  background: url(.jpg);
+  border: 1px solid #000000;
+  border-radius: 16px 16px 0px 0px;
+}
+
+
+.Projeto-card-title { 
+  margin-left: 18px; 
+  font-family: var(--secondFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;  
+  color: #01030F;;
+  }
+
+.Projeto-card-paragrafo {
+  margin-left: 18px;  
+  font-family: var(--secondFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;    
+  color: #01030F;
+}
